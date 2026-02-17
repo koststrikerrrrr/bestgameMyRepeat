@@ -16,30 +16,61 @@
 </head>
 <body>
     <!--Шапка-->
-    <header>
-
+    <header class="header container">
+            <div class="header__logo"><img src="IMAGES/icons/logo.jpg" alt=""> </div>
+            <nav class="header__nav">
+                <ul class="header__nav__item">
+                    <li><a href="#">Поиск</a></li>
+                    <li><a href="#">Войти</a></li>
+                    <li><a href="#">Профиль</a></li>
+                    <li><a href="#">Каталог игр</a></li>
+                </ul>
+            </nav>
     </header>
 
     <!--Слайдер новинок-->
     <section class="slider container">
-        <div class="slaider__wraper">
-            <div class="slider__slide">
-                <img src="image/games/palm1.jpg" alt="Palm Game 1">
-                <h3>Palm Adventure</h3>
-                <p>1499 ₽</p>
-                <a href="catalog.html" class="btn">Подробнее</a>
+        <div class="slider__viewport">
+            <div class="slider__wrapper">
+                <div class="slider__slide">
+                    <img src="images/games/kastle.jpg" alt="Palm Game 1">
+                    <div class="slider__content">
+                        <h3>Palm Adventure</h3>
+                        <p>1499 ₽</p>
+                        <a href="catalog.html" class="btn">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="slider__slide">
+                    <img src="images/games/palm1.jpg" alt="Palm Game 1">
+                    <h3>Palm Adventure</h3>
+                    <p>1499 ₽</p>
+                    <a href="catalog.html" class="btn">Подробнее</a>
+                </div>
+
+                <div class="slider__slide">
+                    <img src="images/games/palm2.jpg" alt="Palm Game 1">
+                    <h3>Palm Adventure</h3>
+                    <p>1499 ₽</p>
+                    <a href="catalog.html" class="btn">Подробнее</a>
+                </div>
             </div>
         </div>
+        
 
     <!--Стрелки-->
-    <button class="slider__prev">‹</button>
-    <button class="slider__next">›</button>
+    <div class="slider__btn">
+            <button class="slider__prev">‹</button>
+            <button class="slider__next">›</button>
+    </div>
+
     </section>
 
     <!--Преимущества-->
-    <section>
-        <div>
-
+    <section class="advantages container">
+        <div class="advantages__item">
+            <img src="/images/icons/gprice.jpg" alt="">
+            <p>Привлекательные цены</p>
         </div>
     </section>
 </body>

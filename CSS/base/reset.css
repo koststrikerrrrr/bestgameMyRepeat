@@ -1,4 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+     border-radius:30px ;
+}
+
+body{
+    background-color: #111;
+    color: white;
+}
+
+img{
+    width: 100px;
+    border-radius: 30px;
+    display: block;
 }

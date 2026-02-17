@@ -8,6 +8,12 @@
     src: url(/FONTS/Rubik-SemiBold.ttf);
 } 
 
+a, li{
+    font-family: one;
+    text-decoration-line: none;
+    list-style: none;
+}
+
 p{
     font-family: one;
     font-size: 15px;
