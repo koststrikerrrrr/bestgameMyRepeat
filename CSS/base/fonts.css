@@ -1,0 +1,21 @@
+@font-face {
+    font-family: one;
+    src: url(/FONTS/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: two;
+    src: url(/FONTS/Rubik-SemiBold.ttf);
+} 
+
+p{
+    font-family: one;
+    font-size: 15px;
+}
+
+h1{font-family: two;}
+h2{font-family: two;}
+h3{font-family: two;}
+h4{font-family: two;}
+h5{font-family: two;}
+h6{font-family: two;}
