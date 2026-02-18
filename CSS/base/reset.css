@@ -14,3 +14,12 @@ img{
     border-radius: 30px;
     display: block;
 }
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: #fa4a4a;
+}
+
