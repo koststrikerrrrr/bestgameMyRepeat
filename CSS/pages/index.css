@@ -8,6 +8,7 @@
 /*  header */
 
 .header{
+    
     background-color: #6363633f;
     border-radius: 30px;
     display: flex;
@@ -173,17 +174,16 @@ transform: translateY(-10px);
     margin:20px;
 }
 .game__information a{
-    color: #fa4a4;
     background-color:#a5a5a53f ;
     padding: 5px 10px;
-    box-shadow: 0 0 15px 5px #99999996;
+    box-shadow: 0 0 0 0 #99999996;
     margin-top: 10px;
     transition: 0.4s ease;
 }
 
 .game__information a:hover{
-    background-color:#6363633f ;
-     box-shadow: 0 0 5px 5px #99999996;
+    background-color:#383838d8 ;
+     box-shadow: 0 0 10px 5px #2e2e2e96;
 }
 
 .game__card{
