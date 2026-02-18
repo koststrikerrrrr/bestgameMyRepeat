@@ -8,7 +8,7 @@
     src: url(/FONTS/Rubik-SemiBold.ttf);
 } 
 
-a, li{
+a, li, label{
     font-family: one;
     text-decoration-line: none;
     list-style: none;

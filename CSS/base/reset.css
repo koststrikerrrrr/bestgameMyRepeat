@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border-radius:30px ;
+     border-radius:30px ;
 }
 
 body{
@@ -22,4 +22,16 @@ a{
 a:hover{
     color: #fa4a4a;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input{
+    font-size: 20px;
+    background-color: #6363633f;
+    text-align: center;
+}
+
 
