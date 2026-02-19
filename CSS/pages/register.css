@@ -1,0 +1,37 @@
+.reg{
+    width: 900px;
+    margin: 100px auto;
+    background-image: url(/images/icons/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}   
+
+.reg__box{
+
+    border: 1px solid rgba(240, 0, 0, 0.39);
+    margin: 0 auto;
+    box-shadow: 0 8px 30px rgb(182, 30, 30);
+    display: flex;
+    align-items: center;
+}
+
+.reg__form{
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(20px);
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column  ;
+}
+
+.reg__btn{
+    padding: 5px;
+}
+
+.reg__input{
+    padding-left: 10px;
+    color: white;
+}

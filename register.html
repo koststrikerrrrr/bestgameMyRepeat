@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Регистрация</title>
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/pages/register.css">
@@ -13,8 +13,33 @@
         <div class="reg__box">
             <form class="reg__form">
                 <h4>Регистрация</h4>
-                <label class="reg__label" for="username" >Имя пользователя</label>
+                <label class="reg__label" for="email">Почта</label>
+                <input class="reg__input" type="email" id="email" for="email">
+
+                <label class="reg__label" for="lastname" >Фамилия </label>
+                <input class="reg__input" type="lastname" name="lastname" id="lastname">
+
+                <label class="reg__label" for="username" >Имя </label>
                 <input class="reg__input" type="username" name="username" id="username">
+                
+                <label class="reg__label" for="birthsday" >Дата рождения </label>
+                <input class="reg__input" type="birthsday" name="birthsday" id="birthsday">
+            
+                <label class="reg__label" for="phone" >Номер телефона </label>
+                <input class="reg__input" type="phone" name="phone" id="phone">
+            
+                <label class="reg__label" for="password" >Пароль </label>
+                <input class="reg__input" type="password" name="password" id="password">
+
+                <label class="reg__label" for="confirm_password" >Повтор пароля </label>
+                <input class="reg__input" type="confirm_password" name="confirm_password" id="confirm_password">
+
+                    <!-- Чекбокс согласия на обработку данных -->
+                <input class="reg__label" type="checkbox" id="consent" name="consent" value="agree" required>
+                <label class="reg__input" for="consent">Я согласен(-на) на обработку моих персональных данных.</label><br><br>
+                
+                <!-- Кнопка отправки формы -->
+                <button class="reg__btn" type="submit">Зарегистрироваться</button>
             </form>
         </div>
     </section>
