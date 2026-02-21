@@ -1,0 +1,54 @@
+.profile{
+    width: 100%;
+    min-height: 600px;
+
+    padding-bottom: 30px;
+    background-image: url(/images/icons/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+
+    border: 1px solid rgba(255, 0, 0, 0.367);
+    box-shadow: 0 8px 30px rgba(255, 0, 0, 0.326);
+}
+  
+.profile__info-view{
+    max-width: 900px;
+    max-height: 1000px;
+    margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.234);
+    background-color: rgba(255, 255, 255, 0.216);
+    backdrop-filter: blur(10px);
+
+    align-items: center;
+
+}
+
+.profile__info{
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.216);
+    padding: 10px;
+    margin: 0px auto;
+    border: 1px solid rgba(255, 255, 255, 0.234);
+    display: flex;  
+    justify-content: space-between;
+
+}
+
+.profile__info__reg{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__buy__container{
+    border: 20px solid white;
+    padding: 10px;
+
+}
+
+.profile__buy{
+    background-color: rgba(255, 255, 255, 0.216);
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
