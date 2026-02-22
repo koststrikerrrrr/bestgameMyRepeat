@@ -1,0 +1,42 @@
+.game__rating{
+    display: flex;
+}
+.game__rating img{
+    width: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+
+}
+.btn{
+    padding: 3px;
+}
+
+.catalog__main{
+    background-image: url(/images/icons/background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.catalog__filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog__view{
+    margin: 20px auto;
+    max-width: 800px;
+    max-height: min-content;
+}
+
+.catalog__game{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid white;
+}
+
