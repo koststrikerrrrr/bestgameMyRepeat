@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>админ панель</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/pages/admin.css">
 </head>
 <body>
 <header></header>
 
 <main class="admin container">
-    <form class="admin-form" action="">
-
+  
+    <form class="admin-form">
+    <h1>Админ панель</h1>
         <div class="admin-form__group">
             <label for="title">Название</label>
             <input type="text" id="title">
@@ -22,12 +24,30 @@
             <input type="text" id="genre">
         </div>
 
+
+        <div class="admin-form__group">
+            <label for="image">Изображение</label>
+            <input type="text" id="image">
+        </div>
+
+
+        <div class="admin-form__group">
+            <label for="company">Компания разработчик</label>
+            <input type="text" id="company">
+        </div>
+
+        <div class="admin-form__group">
+            <label for="info">Описание</label>
+            <input type="text" id="info">
+        </div>
+
+
         <div class="admin-form__group">
             <label for="price">Стоимость</label>
             <input type="text" id="price">
         </div>
 
-        <button type="submit">Добавить</button>    
+        <button class="btn" type="submit">Добавить</button>    
     </form>
     
 
